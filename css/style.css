@@ -1,0 +1,51 @@
+body{
+width: 100vh;
+height:100vh;
+background-color: rgb(13, 44, 44);
+color: white;
+background: image();
+}
+img{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+     margin-right: 400px;
+     display: flex;
+     justify-content: center;
+}
+
+h1{
+    font: bold;
+    color: darkorange;
+    text-align: center;
+    justify-content: center;
+}
+.bar{
+    display: flex;
+    background-color: darkorange;
+    justify-content: center;
+    padding: 50px; 
+
+    
+}
+.bar:hover{
+    background-color: red;
+}
+.bar:active{
+    background-color: chocolate;
+}
+.social-page{
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.pre-para{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+
+}
